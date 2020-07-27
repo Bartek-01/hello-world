@@ -1,0 +1,12 @@
+ask  { 
+    const kwadrat = fun(n:int):array(int) {
+        concat('Bok kwadratu=',n,' Obwód=',(n*4),' Pole=',(n*n))
+        return [n*4,n*n]
+    }
+    const n : int = 8
+    let a : array =  kwadrat(n)
+  a[0]
+  a[1]
+  concat ('Bok kwadratu=',n,' Obwód=',a[0],' Pole=',a[1])
+    
+} 
