@@ -1,0 +1,13 @@
+// first function
+
+ask  { 
+    const f01 = fun(n:int,x:string) {
+        if (n < 2) {
+            return x
+        }
+        concat(x,' ',f01(n-1,x))
+        
+    }
+    f01(10,'Text')
+    
+} 
