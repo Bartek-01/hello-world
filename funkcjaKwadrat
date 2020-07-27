@@ -2,7 +2,7 @@ ask  {
     const kwadrat = fun(n:int):array(int) {
         [n*4,n*n]
     }
-    const n : int = 9
+    const n : int = 9 // Bok kwadratu
     const a : array =  kwadrat(n)
   concat ('Bok kwadratu=',n,' Obwód=',a[0],' Pole=',a[1])
     
